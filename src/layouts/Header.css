@@ -1,0 +1,17 @@
+.bg-light { 
+    background:transparent!important;
+}
+
+@media ( max-width:991px ){
+    .collapse:not(.show) { 
+        display: block!important; 
+    }
+    .navbar-collapse {
+        flex-basis: auto;
+    }
+    .navbar-nav {
+        flex-direction: inherit;
+        justify-content: flex-end;
+        gap:1rem;
+    }
+}
